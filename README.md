@@ -8,7 +8,6 @@ A React application that allows users to upload multiple images, overlay them on
 - Overlay images on top of each other
 - Reposition images freely
 - Delete images from the overlay
-- Custom file upload button
 - Responsive design
 
 ## Technologies Used
