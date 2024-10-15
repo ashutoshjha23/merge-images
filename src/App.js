@@ -11,8 +11,8 @@ const App = () => {
     const addImage = (image) => {
         const newImage = {
             src: image,
-            left: Math.random() * 400,
-            top: Math.random() * 400,
+            left: 40,
+            top: 40,
             width: '400px',
             height: '400px',
         };
