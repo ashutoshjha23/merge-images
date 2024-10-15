@@ -16,7 +16,7 @@ const ImageUploader = ({ addImage }) => {
     };
 
     const handleButtonClick = () => {
-        fileInputRef.current.click(); // Trigger file input when button is clicked
+        fileInputRef.current.click(); 
     };
 
     return (
@@ -26,7 +26,7 @@ const ImageUploader = ({ addImage }) => {
                 accept="image/*"
                 onChange={handleFileChange}
                 ref={fileInputRef}
-                style={{ display: 'none' }} // Hide the default input
+                style={{ display: 'none' }} 
             />
             <button onClick={handleButtonClick} className="custom-file-upload">
                 Choose File

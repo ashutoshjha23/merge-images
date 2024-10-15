@@ -34,18 +34,6 @@ const ImageResizer = ({ children, onResize, initialSize }) => {
             <div
                 className="resizer"
                 onMouseDown={startResize}
-                style={{
-                    position: 'absolute',
-                    width: '12px',
-                    height: '12px',
-                    background: '#ff4081',
-                    borderRadius: '50%',
-                    bottom: 0,
-                    right: 0,
-                    cursor: 'nwse-resize',
-                    border: '2px solid white',
-                    boxShadow: '0 2px 4px rgba(0, 0, 0, 0.2)',
-                }}
             />
         </div>
     );
