@@ -1,5 +1,6 @@
 import React from 'react';
 import html2canvas from 'html2canvas';
+import '../styles.css';
 
 const DownloadButton = () => {
     const handleDownload = async () => {
@@ -12,7 +13,13 @@ const DownloadButton = () => {
         link.click();
     };
 
-    return <button onClick={handleDownload}>Download Image</button>;
+    return (
+        <div className="download-button-container">
+            <button className="download-button" onClick={handleDownload}>
+                Download Image
+            </button>
+        </div>
+    );
 };
 
 export default DownloadButton;
