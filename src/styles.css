@@ -42,6 +42,8 @@ h1 {
 }
 
 button {
+    
+    top: 100px;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
@@ -109,8 +111,8 @@ button:hover {
 
 .toggle-overlay-button {
     position: absolute;
-    top: 750px;
-    left: 130px;
+    top: 700px;
+    left: 490px;
     padding: 10px 20px;
     background: #28a745;
     color: white;
@@ -143,4 +145,17 @@ button:hover {
 .custom-file-upload:hover {
     background: #007bff;
     color: white;
+}
+
+.download-button {
+    position: absolute;
+    top: 700px;
+    left: 720px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
 }
